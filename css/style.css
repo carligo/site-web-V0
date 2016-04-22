@@ -1,0 +1,331 @@
+ /* General classes for page */
+
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #222;
+  color: #aaaaaa;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 54px;
+  width: auto;
+  margin: 0px 0px 0px 0px;
+}
+
+#footer a {
+  color: #cccccc;
+}
+.footerfixed{
+  bottom: 0px;
+  position: absolute;
+  width: 50px;
+}
+
+#footer a:hover {
+  color: white;
+}
+.logofooter{
+  text-align: center;
+}
+
+.social a {
+  font-size: 24px;
+}
+.social{
+  margin-left: 0px;
+}
+.containerfooter{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 10px;
+  width: auto;
+
+}
+
+.mail-chimp-footer{
+  text-align: right;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+/* Lead with big image */
+
+.wrapper {
+  background-image: url('../images/banniere.png');
+  height: 520px;
+  margin: 30px 0px 0px 0px;
+  background-size: cover;
+ 
+
+  /*padding-top: 500px;
+  text-align: center;
+  color: white;*/
+}
+
+.body{
+  margin: 0px 0px 0px 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 1440px;
+}
+.container{
+  width: auto;
+  /*padding-left: 0;
+  padding-right: 5px;*/
+}
+
+.newsletter{
+  text-align: center;
+}
+
+.titre {
+  color: #444444;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.iphone{
+  text-align: center;
+}
+
+.icones{
+  color: #de2a60;
+}
+.descriptioniphone{
+  padding-top: 110px;
+  padding-left: 10px;
+}
+/*.partagez{
+  margin-left: 60px
+}
+.partagez-2{
+  margin-left: 120px
+}*/
+
+/*.mail-chimp{
+  text-align: center;
+}*/
+/*.email{
+  width: 600px;
+}*/
+
+.email{
+  margin-right: 0px;
+}
+
+
+.demo{
+  padding: 50px 0px 50px 0px; 
+  background-color: #4A5053;
+ /* margin-right: 0px;
+  margin-left: 0px;*/
+}
+
+.image{
+  background-image: url('../images/paris.jpg');
+  height: 740px;
+  background-size: cover;
+  opacity: 1;
+}
+
+/*.rex {
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Open Sans';
+  color: white;
+  text-shadow: 0 0 30px rgba(, 0, 0, .7);
+}
+.rexstudent{
+  font-style: italic;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-shadow: 0 0 30px rgba(0, 0, 0, .7);
+  font-size: 16px;
+}
+*/
+.profil{
+  height: 150px;
+  margin-left: 0%;
+  border-radius: 70%;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/*.head h1 {
+  font-size: 72px;
+  font-weight: normal;
+}
+
+.lead h2 {
+  background: rgba(0, 0,0, 0);
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}*/
+
+/* Vertical spacer to help content breathe */
+
+.vertical-spacer {
+  height: 4em;
+}
+.vertical-spacer-small {
+  height: 2em;
+}
+
+/* Some padding for feature images */
+
+.feature img {
+  margin-bottom: 2em;
+}
+.interview{
+  padding: 0px 50px 0px 50px;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+}
+
+.text {
+  /*color: #444444;*/
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+
+.eco{
+  padding:35px 10% 0px 40% ;
+  text-align:center;
+}
+
+/* How to override the default Bootstrap colors */
+
+/*.btn-primary {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}*/
+
+.button{
+  border-color: #222;
+  background-color: #222;
+  color: white;
+  margin-right: 0px;
+}
+
+.button:hover {
+  border-color: white;
+  background-color: white;
+  color: black;
+}
+
+/* How to override the default Bootstrap navbar */
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/*#form button{
+ background-color: black;
+ color: white;
+ border: none;
+}
+#form button:hover{
+ background-color: white;
+ color: black;
+}*/
+
+
+.nav-center{
+  position: absolute;
+  width: auto;
+  left: 0;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+#myModalLabel{
+  text-align: center;
+}
+
+.navbar{
+  border: none;
+}
+.container h2{
+  text-align: center;
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+    border: 1px solid black;
+}
+.tabtarifs{
+  margin-left: 150px;
+  margin-top: 30px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+
+}
+.entete{
+  padding-left: 25px;
+}
+
+table{
+  line-height: 3em;
+}
+
+td{
+  width: 100px;
+}
+
+.prix{
+  text-align: center;
+}
+.zoner{
+  background-color: rgba(255,0,0,0.35);
+}
+.position{
+  padding-left: 5px;
+}
+
